@@ -42,3 +42,23 @@ Observation:
 * A Client Hello and Server Hello exchange was captured.
 * Communication occurred over TCP port 443.
 * HTTPS encrypts data to protect confidentiality and integrity during transmission.
+
+---
+
+## 3. TCP Handshake Analysis
+
+Filter Used:
+
+tcp
+
+Screenshot:
+
+<img width="959" height="437" alt="Screenshot 2026-06-23 105200" src="https://github.com/user-attachments/assets/6e06b97e-c6af-453e-a738-374159512d29" />
+
+Observation:
+
+* A TCP three-way handshake was captured.
+* The client initiated the connection by sending a SYN packet.
+* The server responded with a SYN-ACK packet.
+* The client completed the connection establishment by sending an ACK packet.
+* This process is used to establish reliable communication before data transmission begins.
