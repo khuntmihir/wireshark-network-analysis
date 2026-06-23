@@ -62,3 +62,28 @@ Observation:
 * The server responded with a SYN-ACK packet.
 * The client completed the connection establishment by sending an ACK packet.
 * This process is used to establish reliable communication before data transmission begins.
+
+---
+
+## 4. ICMP Analysis
+
+Filter Used:
+
+icmp
+
+Screenshot:
+
+<img width="959" height="431" alt="Screenshot 2026-06-23 105848" src="https://github.com/user-attachments/assets/fd37c847-987d-4684-9701-544315351336" />
+
+Observation:
+
+* ICMP echo request and echo reply packets were captured.
+* The ping command was used to test connectivity between the client and a remote host.
+* Successful replies confirmed that the destination host was reachable.
+* ICMP is commonly used for network troubleshooting and connectivity testing.
+
+---
+
+## Conclusion
+
+This project demonstrated basic network traffic analysis using Wireshark. DNS queries, TCP connection establishment, HTTPS/TLS communication and ICMP traffic were successfully captured and analysed. These protocols are commonly encountered during cybersecurity investigations and network monitoring activities.
