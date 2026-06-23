@@ -25,6 +25,20 @@ Observation:
 
 ---
 
-## Conclusion
+## 2. HTTPS/TLS Analysis
 
-This project demonstrates basic DNS traffic analysis using Wireshark.
+Filter Used:
+
+tls
+
+Screenshot:
+
+<img width="1857" height="1093" alt="image" src="https://github.com/user-attachments/assets/b065a380-32b5-48d5-988e-ab3d92642897" />
+
+
+Observation:
+
+* TLSv1.3 traffic was observed between the client and a remote server.
+* A Client Hello and Server Hello exchange was captured.
+* Communication occurred over TCP port 443.
+* HTTPS encrypts data to protect confidentiality and integrity during transmission.
